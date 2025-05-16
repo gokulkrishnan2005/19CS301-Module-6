@@ -140,7 +140,7 @@ x.fun1()
 ```
 ### OUTPUT:
  
-![image](https://github.com/user-attachments/assets/ea434dc1-3f93-4a66-8828-1d815e9ff015)
+![image](https://github.com/gokulkrishnan2005/19CS301-Module-6/blob/main/23.png)
 
  
 
