@@ -1,7 +1,8 @@
 # 19CS301-Module-6
 EX: 6.1   POLYMORPHISM
 
-### AIM: To Create two specific classes- Beans and Mango. Along with that, create a generic function that tells us the type and color of the object we pass. Mind you, since we have passed only “obj” through it, this obj can be any object.
+### AIM: 
+To Create two specific classes- Beans and Mango. Along with that, create a generic function that tells us the type and color of the object we pass. Mind you, since we have passed only “obj” through it, this obj can be any object.
 
 
 ### ALGORITHM:
@@ -34,7 +35,7 @@ class Mango:
          func(obj_mango)
 ```
 ### OUTPUT:
-![image](https://github.com/user-attachments/assets/b41a3e12-896b-4f6c-a9b2-19045a5088f9)
+![image](https://github.com/gokulkrishnan2005/19CS301-Module-6/blob/main/20.png)
 
 
 ### RESULT: Thus, the program has been successfully executed.
