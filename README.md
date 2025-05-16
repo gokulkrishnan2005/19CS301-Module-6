@@ -64,7 +64,7 @@ ob2 = A(3)
 print(ob1<ob2)
 ```
 ###OUTPUT:
-![image](https://github.com/user-attachments/assets/dae03d17-1004-424e-a179-ef62fd2681bd)
+![image](https://github.com/gokulkrishnan2005/19CS301-Module-6/blob/main/21.png)
 
 
 
