@@ -6,6 +6,7 @@ To Create two specific classes- Beans and Mango. Along with that, create a gener
 
 
 ### ALGORITHM:
+
 Step1: create class Beans and def a function type and color
 
 Step 2: create a class Mango and def a function type and color
@@ -42,8 +43,10 @@ class Mango:
 
 EXP.No: 6.b OPERATOR OVERLOADING
 
-### AIM: write a python program to overload less than operator
+### AIM:
+write a python program to overload less than operator
 ###ALGORITHM:
+
 Step1 :create class A and def init	 
 
 Step2: def it	with a condition if self.a < o.a 
@@ -76,6 +79,7 @@ EX: 6.3 ABSTRACT CLASS METHOD
 ### AIM: To Create the abstract method calculate_area which is of the abstract class 'Shape'
 
 ### ALGORITHM:
+
 Step1:Get input from the user
 
 Step2:put class function to define the function using self
@@ -108,7 +112,8 @@ b.calculate_area()
 ### RESULT: Thus, the program has been successfully executed.
 
 EXP.No: 6.4     ENCAPSULATION
-### AIM: To Implement Encapsulation using concepts to access the private variables in ABC class. .
+### AIM: To Implement Encapsulation using concepts to access the private variables in ABC class. 
+
 ###ALGORITHM: 
 
 Define class ABC with a private variable __a.
