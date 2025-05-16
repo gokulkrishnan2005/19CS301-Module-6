@@ -64,11 +64,13 @@ ob2 = A(3)
 print(ob1<ob2)
 ```
 ###OUTPUT:
+
 ![image](https://github.com/gokulkrishnan2005/19CS301-Module-6/blob/main/21.png)
 
 
 
-###RESULT: Thus, the program has been successfully executed.
+###RESULT: 
+Thus, the program has been successfully executed.
 EX: 6.3 ABSTRACT CLASS METHOD
 
 ### AIM: To Create the abstract method calculate_area which is of the abstract class 'Shape'
@@ -100,7 +102,7 @@ a.calculate_area()
 b.calculate_area()
 ```
 ### OUTPUT:
-![image](https://github.com/user-attachments/assets/a4c70e22-b3e0-417a-86d7-41f547c9d60d)
+![image](https://github.com/gokulkrishnan2005/19CS301-Module-6/blob/main/22.png)
 
 
 ### RESULT: Thus, the program has been successfully executed.
