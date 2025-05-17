@@ -222,7 +222,7 @@ print('Name:', stud.name, 'Age:', stud.get_age())
 
 ```
 ### OUTPUT:
-![image](https://github.com/gokulkrishnan2005/19CS301-Module-6/blob/main/22.png)
+![image](https://github.com/gokulkrishnan2005/19CS301-Module-6/blob/main/M6%20IMAGE.png)
 
 
 ### RESULT: 
