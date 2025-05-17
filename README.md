@@ -153,6 +153,44 @@ x.fun1()
 
 Thus, the program has been successfully executed
 
+EXP.No: 6.b OPERATOR OVERLOADING
+
+### AIM: To Create the abstract method calculate_area which is of the abstract class 'Shape'
+
+### ALGORITHM:
+
+Step1:Get input from the user
+
+Step2:put class function to define the function using self
+
+Step3:By using the function to find the area of the rectangle and circle Step4:Execute the program.
+
+### PROGRAM:
+```from abc import ABC
+class Shape(ABC):
+            def calculate_area(self):
+                Pass
+class Rectangle(Shape):
+               length = 5
+               breadth =3
+               def calculate_area(self):
+                   print("Area of a rectangle:",self.length * self.breadth)
+class Circle(Shape):
+             radius = 4
+             def calculate_area(self):
+                     print("Area of a circle:",3.14 * self.radius * self.radius)
+a=Rectangle()
+b=Circle()
+a.calculate_area()
+b.calculate_area()
+```
+### OUTPUT:
+![image](https://github.com/gokulkrishnan2005/19CS301-Module-6/blob/main/22.png)
+
+
+### RESULT: Thus, the program has been successfully executed.
+
+
 
 
 
