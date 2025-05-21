@@ -120,7 +120,7 @@ EXP.No: 6.4     ENCAPSULATION
 ### AIM:
 To Implement Encapsulation using concepts to access the private variables in ABC class. 
 
-###ALGORITHM: 
+### ALGORITHM: 
 
 Define class ABC with a private variable __a.
 
@@ -160,50 +160,65 @@ x.fun1()
 
 Thus, the program has been successfully executed
 
-EXP.No: 6.e SEB-public members & public access modifier 
+EXP.No: 6.e SEB- abc module to create the abstract base class
 
 ### AIM:
-Create a Class  Pub_mod with the two variables name and age of a person define a method to display the age value,create an object for the class to invoke age method.
+import the abc module to create the abstract base class. Create the Car class that inherit the ABC class and define an abstract method named mileage().
 
 
 ### ALGORITHM:
 
 Start
 
-Define a class named pub_mod.
+Import ABC and abstractmethod from abc module.
 
-Inside the class, define a constructor method __init__ with parameters self, name, and age.
+Define an abstract class Car that inherits from ABC.
 
-Assign the name and age values to public instance variables self.name and self.age.
+Inside Car, define a method show() using pass (no implementation).
 
-Define a method Age(self) to print the value of the public data member age.
+Define subclasses: Tesla, Suzuki, Duster, and Renault, each inheriting from Car.
 
-Create an object obj of class pub_mod with values "jason" and 35.
+In each subclass, implement a method mileage() that prints the mileage of that car.
 
-Access and print the public data member name using obj.name.
+Create an object t of class Tesla and call t.mileage().
 
-Call the public member function obj.Age() to display the age.
+Create an object r of class Renault and call r.mileage().
+
+Create an object s of class Suzuki and call s.mileage().
+
+Create an object d of class Duster and call d.mileage().
 
 End
 ### PROGRAM:
 ```
-# illustrating public members & public access modifier 
-class pub_mod:
-    # constructor
-    def __init__(self, name, age):
-        self.name = name;
-        self.age = age;
- 
-    def Age(self): 
-        # accessing public data member 
-        ____________
-# creating object with values jason,35
+from abc import ABC, abstractmethod   
+class Car(ABC):   
+    def show(self):
+        pass
+  
+class Tesla(Car):   
+    def mileage(self):   
+        print("The mileage is 30kmph")   
+class Suzuki(Car):   
+    def mileage(self):   
+        print("The mileage is 25kmph ")   
+class Duster(Car):   
+     def mileage(self):   
+          print("The mileage is 24kmph ")   
+  
+class Renault(Car):   
+    def mileage(self):   
+            print("The mileage is 27kmph ")   
+          
 
-# accessing public data member 
-print("Name: ", obj.name)  
-# calling public member function of the class 
-obj.Age()
-
+t=Tesla()
+t.mileage()
+r=Renault()
+r.mileage()
+s = Suzuki()   
+s.mileage()   
+d = Duster()   
+d.mileage()
 
 ```
 ### OUTPUT:
