@@ -160,65 +160,50 @@ x.fun1()
 
 Thus, the program has been successfully executed
 
-EXP.No: 6.e ENCAPSULATION-PRIVATE MEMBERS
+EXP.No: 6.e SEB-public members & public access modifier 
 
 ### AIM:
-Create a Class  Student with the private members name and age ,Add getter and setter to initialize the age variable.
+Create a Class  Pub_mod with the two variables name and age of a person define a method to display the age value,create an object for the class to invoke age method.
 
 
 ### ALGORITHM:
 
 Start
 
-Define a class Student with:
+Define a class named pub_mod.
 
-An initializer __init__ that takes name and age as parameters.
+Inside the class, define a constructor method __init__ with parameters self, name, and age.
 
-Store name as a public attribute.
+Assign the name and age values to public instance variables self.name and self.age.
 
-Store age as a private attribute using self.__age.
+Define a method Age(self) to print the value of the public data member age.
 
-Define a getter method get_age() to return the value of __age.
+Create an object obj of class pub_mod with values "jason" and 35.
 
-Define a setter method set_age(age) to update the value of __age.
+Access and print the public data member name using obj.name.
 
-Create an instance of Student with name 'Jessa' and age 14.
-
-Use the get_age() method to retrieve and print the age.
-
-Use the set_age(16) method to update the age to 16.
-
-Again use get_age() to retrieve and print the updated age.
+Call the public member function obj.Age() to display the age.
 
 End
-
 ### PROGRAM:
 ```
-class Student:
+# illustrating public members & public access modifier 
+class pub_mod:
+    # constructor
     def __init__(self, name, age):
-        # private member
-        self.name = name
-        self.__age = age
+        self.name = name;
+        self.age = age;
+ 
+    def Age(self): 
+        # accessing public data member 
+        ____________
+# creating object with values jason,35
 
-    # getter method
-    def get_age(self):
-        return self.__age
+# accessing public data member 
+print("Name: ", obj.name)  
+# calling public member function of the class 
+obj.Age()
 
-    # setter method
-    def set_age(self, age):
-        self.__age = age
-
-# creating object
-stud = Student('Jessa', 14)
-
-# retrieving age using getter
-print('Name:', stud.name, 'Age:', stud.get_age())
-
-# changing age using setter
-stud.set_age(16)
-
-# retrieving age again using getter
-print('Name:', stud.name, 'Age:', stud.get_age())
 
 ```
 ### OUTPUT:
