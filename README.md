@@ -222,7 +222,7 @@ d.mileage()
 
 ```
 ### OUTPUT:
-![image](https://github.com/gokulkrishnan2005/19CS301-Module-6/blob/main/M6%20IMAGE.png)
+![image](https://github.com/gokulkrishnan2005/19CS301-Module-6/blob/main/mod%206%20seb.png)
 
 
 ### RESULT: 
